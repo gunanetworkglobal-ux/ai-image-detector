@@ -1,42 +1,40 @@
-\# AI Image Detector
+# AI Image Detector
 
+This project is a simple AI web application that detects objects in images using a pretrained deep learning model.
 
+## Technologies Used
+- Python
+- TensorFlow
+- Flask
+- NumPy
+- Pillow
+- HTML
 
-This project is a simple AI web application that detects objects in images.
+## AI Model
+MobileNetV2 pretrained on ImageNet dataset.
 
+## Features
+- Upload an image
+- AI predicts object inside the image
+- Web interface using Flask
+- Real-time prediction
 
+## How to Run
 
-Technologies:
-
-Python
-
-TensorFlow
-
-Flask
-
-NumPy
-
-Pillow
-
-
-
-Steps to run:
-
-
-
-1\. Install requirements
+1. Install dependencies
 
 pip install -r requirements.txt
 
-
-
-2\. Run the app
+2. Run the application
 
 python app.py
 
-
-
-3\. Open browser
+3. Open browser
 
 http://127.0.0.1:5000
 
+Upload an image and view the AI prediction.
+
+## Example Predictions
+- Dog → golden retriever
+- Car → sports car
