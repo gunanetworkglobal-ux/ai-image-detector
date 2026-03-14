@@ -38,3 +38,6 @@ Upload an image and view the AI prediction.
 ## Example Predictions
 - Dog → golden retriever
 - Car → sports car
+
+## Demo
+! [AI Image Detector] (project-demo.png)
